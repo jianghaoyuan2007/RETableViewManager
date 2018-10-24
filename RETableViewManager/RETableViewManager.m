@@ -408,7 +408,7 @@
 }
 
 // Variable height support
-
+/*
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     RETableViewSection *section = self.mutableSections[indexPath.section];
@@ -421,7 +421,7 @@
     
     return [[self classForCellAtIndexPath:indexPath] heightWithItem:item tableViewManager:self];
 }
-
+*/
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)sectionIndex
 {
     if (self.mutableSections.count <= sectionIndex) {
